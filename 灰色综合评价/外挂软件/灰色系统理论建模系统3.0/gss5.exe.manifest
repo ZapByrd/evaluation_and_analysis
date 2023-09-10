@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="gss5.exe" version="1.0.0.0" publicKeyToken="68cb2f0a84f32532" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="main.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="gss5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="gss5.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="EnvDTE" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="VsWebSite.Interop" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="gss5.exe" size="4038656">
+      <assemblyIdentity name="gss5" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wgKuyH1/jOZ8QTF8sooqM9r/qLY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Microsoft.Office.Core.dll" size="217088">
+      <assemblyIdentity name="Interop.Microsoft.Office.Core" version="2.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gOIArHiOxIX+16YuM2G9zln00pU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.VBIDE.dll" size="57344">
+      <assemblyIdentity name="Interop.VBIDE" version="5.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XGCvRr5syURXerBXlxkLesY5nvw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Word.dll" size="655360">
+      <assemblyIdentity name="Interop.Word" version="8.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BDhoR+TDofQ13cze73RdThwh1VY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="gss5.exe.config" size="74">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XshrqJbLMwJ7FM1jR7BQZyNqypc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="main.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AMoUhkvvu+B0KhiZmdErtOil/N0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZENGBO\HP6510b" issuerKeyHash="fbfcf1ac850e7c058f0cb6c48064288a346c48f1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LPOIUTFNH6dxY7s+UoWz7ev5QlY=</DigestValue></Reference></SignedInfo><SignatureValue>Lw0X7ONRYiCgUsQNA/x7D9T+5q6Kez3voPSbQ0F59SrRsyoPJUy7PnoGfxIwbTY2HT6wHY2+8XSYqSFjYTaG0T3Fm8ntynmZGXGq2MPyU3UNgQ/juVMy3FYKKJHVO5YIsuYgDSrQr3Bk7uL5nqbaHHPm9IcRVhNFtJdD6E9PRvA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0z2UEioDQGRFUrZHOJsKAsTfGDiwznTVKRNsM2IhWQPAAX4cW2tSVY20HYoZsmZDh1/aMOy1N6M600YgDjfzDkP1xINh49g7h8OP2iDmcwZGBYoOBb+9kjAHKvdGRSvvPcy2t6t8sGb6uuw7mXd8K5MHbrKlwquCmDwsvRMbwAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5642f9ebedb385523ebb6371a71f4d315188f32c" Description="" Url=""><as:assemblyIdentity name="gss5.exe" version="1.0.0.0" publicKeyToken="68cb2f0a84f32532" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZENGBO\HP6510b</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f1jJQsCsw530k1vTSstwrRcjv0k=</DigestValue></Reference></SignedInfo><SignatureValue>P2uui8QMHvJLFlLf3FNrITnFhGBe/BlVby/EZgVafenzACTWhQJHsSBZf4UXeJMDQmDlACzYVBIrAuVszslBdPyWibBfCg7DcNeuSQElL8Ds7U02L7r7Eg6fMPPB949YfLu98gLcQjGWnZEe5YWbdPsig86QsqBXIX8s3dB9q2Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0z2UEioDQGRFUrZHOJsKAsTfGDiwznTVKRNsM2IhWQPAAX4cW2tSVY20HYoZsmZDh1/aMOy1N6M600YgDjfzDkP1xINh49g7h8OP2iDmcwZGBYoOBb+9kjAHKvdGRSvvPcy2t6t8sGb6uuw7mXd8K5MHbrKlwquCmDwsvRMbwAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATagAwIBAgIQXplUM6JMg4hG/nE4Ph2NyzAJBgUrDgMCHQUAMCcxJTAjBgNVBAMeHABaAEUATgBHAEIATwBcAEgAUAA2ADUAMQAwAGIwHhcNMDkwMzMwMDQyMDA1WhcNMTAwMzMwMTAyMDA1WjAnMSUwIwYDVQQDHhwAWgBFAE4ARwBCAE8AXABIAFAANgA1ADEAMABiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTPZQSKgNAZEVStkc4mwoCxN8YOLDOdNUpE2wzYiFZA8ABfhxba1JVjbQdihmyZkOHX9ow7LU3ozrTRiAON/MOQ/XEg2Hj2DuHw4/aIOZzBkYFig4Fv72SMAcq90ZFK+89zLa3q3ywZvq67DuZd3wrkwdusqXCq4KYPCy9ExvABwIDAQABMAkGBSsOAwIdBQADgYEAEE4yWXObq4CJu8xrT2CxXEvTSLBBwnFyYfAKQxu1QTcdKd7gjstI8IsSPQSwEH4Db+VuvG7HHLKN/np+oWtnbWoZz3ng0cEC44dpCwnHNPF9gSyvqfppvJUcrwHurnS7TO2s7ibrNSkBrgTCOrWG/unizFaDqQ27QOi23v01ixo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
